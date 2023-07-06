@@ -8,21 +8,21 @@ const Services = () => {
   return (
     <Wrapper1>
         <Container2 left>
-            <img src={car} alt="" />
+            <img src={car} alt="" style={{marginRight:"10px"}} />
                 <Container3>
                     <h2>Free Delivery</h2>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </Container3>
         </Container2>   
         <Container2 mid>
-            <img src={hour} alt="" />
+            <img src={hour} alt="" style={{marginRight:"10px"}} />
                 <Container3>
                     <h2>Support 24/7</h2>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </Container3>
         </Container2> 
         <Container2 right>
-            <img src={shield} alt="" />
+            <img src={shield} alt="" style={{marginRight:"10px"}} />
                 <Container3>
                     <h2>100% Authentic</h2>
                     <p>Lorem ipsum dolor sit amet.</p>

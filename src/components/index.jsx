@@ -3,6 +3,7 @@ import { Body } from './style';
 import Navbar from './navbar/Navbar';
 import Home from './pages/Home';
 import Services from './pages/Services';
+import Foter from './footer/Footer';
 
 const FurnitureApp = () => {
   return (
@@ -10,6 +11,7 @@ const FurnitureApp = () => {
         <Navbar/>
         <Home/>
         <Services/>
+        <Foter/>
     </Body>
   )
 }

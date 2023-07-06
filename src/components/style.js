@@ -5,9 +5,7 @@ import backimg1 from '../assets/images/scanbackgr1.svg';
 
 export const Body = styled.div`
 
-
 `
-
 export const NavBar = styled.div`
 display: flex;
 align-items: center;
@@ -23,7 +21,7 @@ flex: ${props=>props.left ? "1" : "1"};
 justify-content: ${props=> props.right ? "right" : ""};
 padding-left: 120px;
 margin-right: 120px;
-/* border: 1px solid black; */
+
 `
 export const Menu = styled.div`
 color: var(--font-color, #333);
@@ -142,7 +140,34 @@ margin-left: ${props=>props.left ? "30px" : ""};
 `
 export const Container3 = styled.div`
 display: flex;
-flex-direction: column;
+flex-direction: ${props=> props.foot ? "row" : "column"};
 
 `
 
+export const FooTer = styled.div`
+display: flex;
+background: #03344F;
+height: 386px;
+color: #FFF;
+padding-left: 120px;
+align-items: center;
+
+h2{       
+    font-size: 24px;    
+    font-weight: 700;
+    line-height: normal;
+}
+
+p{       
+    font-size: 16px;    
+    font-weight: 400;
+    line-height: 35px;
+    margin: 32px 0px;
+}
+`
+
+export const Container4 = styled.div`
+display: flex;
+flex-direction: column;
+flex: ${props=> props.left ? "2" : "4"};
+`
