@@ -7,7 +7,8 @@ const FurnitureApp = () => {
   return (
     <Body>        
         <Navbar/>
-        <Home />
+        <Home/>
+        
     </Body>
   )
 }

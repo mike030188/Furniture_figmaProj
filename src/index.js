@@ -9,6 +9,7 @@ root.render(
   <React.StrictMode>
     <div>
       <FurnitureApp/>
+      
       </div>
   </React.StrictMode>
 );
