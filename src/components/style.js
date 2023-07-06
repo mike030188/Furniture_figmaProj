@@ -48,7 +48,7 @@ export const Wrapper = styled.div`
 background-color: #FCFCFC;
 background-image: url(${backimg1});
 background-repeat: no-repeat;
-background-position: cover;
+background-position: cover center;
 height: 749px;
 padding-top:153px;
 `
@@ -125,3 +125,24 @@ font-size: 28px;
 cursor: pointer;
 
 `
+
+export const Wrapper1 = styled.div`
+display: flex;
+align-items: center;
+height: 150px;
+background: #F2F5FF;
+`
+
+export const Container2 = styled.div`
+display: flex;
+flex: 1;
+justify-content: center;
+margin-left: ${props=>props.left ? "30px" : ""};
+
+`
+export const Container3 = styled.div`
+display: flex;
+flex-direction: column;
+
+`
+
